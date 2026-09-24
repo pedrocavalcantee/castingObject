@@ -14,6 +14,5 @@ public class Principal {
         for (String nome : nomes) {
             System.out.println("Nome: " + nome);
         }
-
     }
 }
