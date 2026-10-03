@@ -1,5 +1,3 @@
-
-
 public class Cachorro extends Animal {
     private String nome;
     private int idade;
@@ -29,8 +27,8 @@ public class Cachorro extends Animal {
         this.raca = raca;
     }
 
-    public void latir(){
-        System.out.println("O cachorro está latindo!!");
+    public String latir(){
+        return this.nome + " está latindo!";
     }
     
     

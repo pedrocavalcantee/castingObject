@@ -9,7 +9,7 @@ public class Principal {
 
         Animal animal = meu_cachorro;
         animal.comer();
-        meu_cachorro.latir();
+        
         Cachorro outroCachorro = new Cachorro();
         outroCachorro.setNome("Xena");
         outroCachorro.setIdade(5);
@@ -30,8 +30,8 @@ public class Principal {
         animais.add(cachorroAleatorio);
         animais.add(animalDiferente);
 
-       for (Animal animal1:animais) {
-        if (animal1 instanceof Cachorro cachorro) {
+       for (Animal animal:animais) {
+        if (animal instanceof Cachorro cachorro) {
             System.out.println(cachorro.latir());
             
         }
