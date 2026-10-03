@@ -3,3 +3,5 @@ out/
 *.iml
 */.vscode/
 *.class
+**/App.java
+*.json
