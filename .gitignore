@@ -3,3 +3,4 @@ out/
 *.iml
 */.vscode/
 *.class
+*.code-workspace
